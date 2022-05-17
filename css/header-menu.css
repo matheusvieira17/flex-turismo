@@ -1,0 +1,43 @@
+
+header {
+    background-color: var(--colorHighlight);
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1#principalTitle {
+    color: var(--colorDefault);
+    font: var(--fontHeaderTitle);    
+}
+
+a.navbtn { 
+    margin: 0.6rem;
+    color: var(--colorDefault);
+    font: var(--fontLinks);
+    text-decoration: none;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+a.navbtn:hover {
+    font: var(--fontLinks);
+    color: black;
+    background-color: var(--colorHeaderLinks);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+a.navbtn:active {
+    font: var(--fontLinks);
+    color: black;
+    background-color: var(--colorLinksActive); 
+}

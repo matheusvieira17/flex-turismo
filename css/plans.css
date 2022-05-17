@@ -1,0 +1,97 @@
+
+.plans-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.plans-container h2 {
+    font: var(--fontHighlightTitle);
+    color: var(--colorHighlight);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.plans-container h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.plans-container h3 {
+    font: var(--fontPresentationParagraph);
+    color: var(--colorHighlight);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plans-container h3::after {
+    content: "";
+    background-color: var(--colorHighlight);
+    height: 3px;
+    width: 100%;
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+} 
+
+.list-plan {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+
+.item-plan {
+    font: var(--fontItemPlan);
+    margin: 0.7rem;
+    border: 4px solid var(--colorHighlight);
+    list-style-position: inside;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.item-plan ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.6rem;
+    padding-right: 0.6rem; 
+    padding-bottom: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.item-plan li {
+    line-height: 2.8rem;
+}
+
+.item-plan ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plan ul li::before {
+    content: "";
+    background-color: var(--colorHighlight);
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.7rem;
+}
+
+.item-plan .plan-btn {
+    font: var(--fontPlanLink);
+    background-color: var(--colorHighlight);
+    color: var(--colorDefault);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.item-plan .plan-btn:hover {
+    color: var(--colorLinksActive);
+    cursor: pointer;
+}

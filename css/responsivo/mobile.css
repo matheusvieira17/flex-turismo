@@ -1,0 +1,93 @@
+@media screen and (max-width: 600px)  {
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .header-container a {
+        font-size: 85%;
+    }
+    
+    .header-container a:hover {
+        font-size: 85%;
+    }
+
+    .initialize {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .initialize img {
+        width: 70%;
+        margin-top: 1rem;
+    }
+
+    .initialize .slogan-btn {
+        font-size: 80%;
+        width: 90%;
+    }
+
+    
+
+    .presentation {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .presentation img {
+        width: 50%;
+    }
+
+    .text-presentation p {
+        font-size: 100%;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 425px)  {
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        font-size: 80%;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .text-presentation h2 {
+        margin-top: 10rem;
+    }
+
+    .text-presentation p {
+        width: 90%;
+    }
+
+    .presentation img {
+        width: 70%;
+    }
+
+    .section-services {
+        margin-top: 12rem;
+    }
+
+    .footer-container {
+        font-size: 90%;
+    }
+        
+}
+

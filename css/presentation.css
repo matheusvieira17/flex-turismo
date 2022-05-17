@@ -1,0 +1,44 @@
+.presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 80vh; 
+}
+
+.presentation .text-presentation {
+    margin-left: 1rem;
+    text-align: justify;
+    width: 100%;
+}
+
+.presentation h2 {
+    font: var(--fontHighlightTitle);
+    color: var(--colorHighlight);
+}
+
+.presentation p {
+    font: var(--fontPresentationParagraph);
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    width: 90%;
+}
+
+.presentation .text-presentation h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.presentation img {
+    min-width: 50%;
+}
+
+.presentation .text-presentation h2::before {
+    content: "|";
+    background-color: var(--colorHighlight);
+    height: 5rem;
+    width: 0.4rem;
+    margin-right: 0.4rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
