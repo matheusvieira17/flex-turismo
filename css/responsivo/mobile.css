@@ -82,7 +82,11 @@
     }
 
     .section-services {
+<<<<<<< HEAD
         margin-top: 10%;
+=======
+        margin-top: 3rem;
+>>>>>>> parent of def7d4b (Update mobile.css)
     }
 
     .footer-container {
