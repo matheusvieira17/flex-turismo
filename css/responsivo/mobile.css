@@ -33,13 +33,12 @@
         width: 90%;
     }
 
-    
-
     .presentation {
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
         justify-content: center;
+        margin-top: 2rem;
     }
 
     .presentation img {
@@ -78,15 +77,11 @@
     }
 
     .presentation img {
-        width: 50%;
+        width: 70%;
     }
 
     .section-services {
-<<<<<<< HEAD
-        margin-top: 10%;
-=======
-        margin-top: 3rem;
->>>>>>> parent of def7d4b (Update mobile.css)
+        margin-top: 2rem;
     }
 
     .footer-container {
