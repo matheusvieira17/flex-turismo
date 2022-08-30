@@ -6,7 +6,7 @@ Digital Innovation One </a>.
 Foram aplicados no layout 
 - Uso do Flexbox em CSS, para solidificar os conhecimentos a respeito do tema
 - Criação de várias folhas de estilo como forma de reuso dos códigos
-- Uso de tags semânticas em HTML 5
+- Uso de tags semânticas em HTML 5.
 - Uso de media queries como aspectos de responsividade
 
 Acesse o Flex Turismo 
